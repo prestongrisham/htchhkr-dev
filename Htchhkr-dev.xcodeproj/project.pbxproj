@@ -24,6 +24,8 @@
 		A9893FB31F2BCC5000D4BFF2 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9893FB21F2BCC5000D4BFF2 /* UIViewExt.swift */; };
 		A9893FB51F2CE32700D4BFF2 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9893FB41F2CE32700D4BFF2 /* LoginVC.swift */; };
 		A9893FB71F2CE42000D4BFF2 /* RoundedCornerTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9893FB61F2CE42000D4BFF2 /* RoundedCornerTextField.swift */; };
+		A9D46BED1F2E1A2400ECD587 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A9D46BEC1F2E1A2400ECD587 /* GoogleService-Info.plist */; };
+		A9D46BEF1F2E1BDD00ECD587 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9D46BEE1F2E1BDD00ECD587 /* DataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		A9893FB21F2BCC5000D4BFF2 /* UIViewExt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		A9893FB41F2CE32700D4BFF2 /* LoginVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
 		A9893FB61F2CE42000D4BFF2 /* RoundedCornerTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCornerTextField.swift; sourceTree = "<group>"; };
+		A9D46BEC1F2E1A2400ECD587 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		A9D46BEE1F2E1BDD00ECD587 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		B3EF83D13A43A15C7C924E57 /* Pods-Htchhkr-dev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Htchhkr-dev.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Htchhkr-dev/Pods-Htchhkr-dev.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -102,6 +106,7 @@
 				A91BE97D1F2B771E00E0167A /* Assets.xcassets */,
 				A91BE97F1F2B771E00E0167A /* LaunchScreen.storyboard */,
 				A91BE9821F2B771E00E0167A /* Info.plist */,
+				A9D46BEC1F2E1A2400ECD587 /* GoogleService-Info.plist */,
 			);
 			path = "Htchhkr-dev";
 			sourceTree = "<group>";
@@ -140,6 +145,7 @@
 		A9893F9F1F2B919800D4BFF2 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				A9D46BEE1F2E1BDD00ECD587 /* DataService.swift */,
 			);
 			name = Services;
 			sourceTree = "<group>";
@@ -233,6 +239,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A91BE9811F2B771E00E0167A /* LaunchScreen.storyboard in Resources */,
+				A9D46BED1F2E1A2400ECD587 /* GoogleService-Info.plist in Resources */,
 				A91BE97E1F2B771E00E0167A /* Assets.xcassets in Resources */,
 				A91BE97C1F2B771E00E0167A /* Main.storyboard in Resources */,
 			);
@@ -294,6 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A9893FB01F2BBB8E00D4BFF2 /* CenterVCDelegate.swift in Sources */,
+				A9D46BEF1F2E1BDD00ECD587 /* DataService.swift in Sources */,
 				A9893FA91F2BA3E400D4BFF2 /* RoundedShadowButton.swift in Sources */,
 				A9893FB51F2CE32700D4BFF2 /* LoginVC.swift in Sources */,
 				A9893FAB1F2BB4F900D4BFF2 /* LeftSidePanelVC.swift in Sources */,
